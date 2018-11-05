@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HOME</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="wrapper">
+    <h2><strong>HOME</strong></h2>
+    <p>우리가 먹는 것이 곧 우리다.</p>
+    <form id="form" name="form" method="get" action="??.jsp">
+      <table border="0" cellspacing="0" summary="검색목록" class="search_table">
+	<caption style="display: none">검색목록</caption>
+  <tbody>
+	<tr>
+		<td>
+			<!--ui object -->
+			<fieldset class="srch">
+				<legend><label for="key">검색영역</label></legend>
+				<select name="key" id="key">
+					<option value="D"  selected="selected"  >식품첨가물</option>
+					<option value="A"  >의약품</option>
+					<option value="B"  >화장품성분</option>
+					<option value="C"  >화학약품</option>
+				</select>
+				<label for="keyword" style="display: none">검색영역</label>
+				<input accesskey="s" class="keyword" title="검색어" type="text" name="keyword" id="keyword" style="width:350px;" value=""/>
+
+				<input alt="검색" src="검색.png" onclick="javascript:search();" type="image"/>
+			</fieldset>
+			<!--//ui object -->
+
+
+		</td>
+	</tr>
+	</tbody>
+  </div>
+    <!--//ui object -->
+  </body>
+</html>
